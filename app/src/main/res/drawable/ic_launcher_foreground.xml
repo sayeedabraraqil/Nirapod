@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Group centered in 66dp safe zone -->
+    <group
+        android:pivotX="54"
+        android:pivotY="54">
+
+        <!-- Outer Dynamic Circulation Ring (Transaction Flow) -->
+        <path
+            android:pathData="M38,40 C34,48 34,60 41,67 C48,74 58,74 65,68 L70,63 C75,58 76,49 71,43 C66,37 56,36 49,42 Z"
+            android:strokeColor="#059669"
+            android:strokeWidth="5"
+            android:strokeLineCap="round"
+            android:fillColor="#00000000" />
+
+        <!-- Primary Emerald Ribbon (Buyer Protection Flow) -->
+        <path
+            android:pathData="M36,44 C33,52 35,62 42,68 C47,73 54,73 60,68 C64,65 67,61 72,55 C77,49 76,41 70,36 C64,31 56,33 50,38 L43,44 Z"
+            android:fillColor="#00B36E" />
+
+        <!-- Intersecting Deep Jewel Shade Ribbon (Seller Escrow Bond) -->
+        <path
+            android:pathData="M72,64 C75,56 73,46 66,40 C61,35 54,35 48,40 C44,43 41,47 36,53 C31,59 32,67 38,72 C44,77 52,75 58,70 L65,64 Z"
+            android:fillColor="#104A3C" />
+
+        <!-- Central Secure Node: Faceted Hexagonal Vault Core -->
+        <path
+            android:pathData="M54,42 L63,48 L63,60 L54,66 L45,60 L45,48 Z"
+            android:fillColor="#0F382E"
+            android:strokeColor="#34D399"
+            android:strokeWidth="2" />
+
+        <!-- Core Golden Trust Spark (Nirapod Assurance Diamond) -->
+        <path
+            android:pathData="M54,49 L58,54 L54,59 L50,54 Z"
+            android:fillColor="#FBBF24" />
+
+        <!-- Top-right connection node -->
+        <path
+            android:pathData="M66,38 A3.5,3.5 0 1 0 66,45 A3.5,3.5 0 1 0 66,38 Z"
+            android:fillColor="#6EE7B7" />
+
+        <!-- Bottom-left connection node -->
+        <path
+            android:pathData="M42,63 A3.5,3.5 0 1 0 42,70 A3.5,3.5 0 1 0 42,63 Z"
+            android:fillColor="#FBBF24" />
+    </group>
+</vector>
